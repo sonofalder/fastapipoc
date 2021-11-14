@@ -8,6 +8,8 @@ fastapi = {extras = ["all"], version = "*"}
 sqlalchemy = "*"
 psycopg2-binary = "*"
 python-dotenv = "*"
+pydantic = {extras = ["email"], version = "*"}
+passlib = {extras = ["bcrypt"], version = "*"}
 
 [dev-packages]
 
